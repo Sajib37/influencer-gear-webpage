@@ -60,6 +60,16 @@ nav ul a{
     border-radius: 20px;
 }
 
+.sponsor{
+    width: 85vw;
+    padding: 5vh;
+    margin:5vh auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 20px;
+    background-color: aquamarine;
+}
+
 
 /* responssive for small device */
 @media screen and (max-width: 576px){
@@ -94,9 +104,10 @@ nav ul a{
         font-size: 14px;
         font-weight: 500;
     }
-    .menu-icon:hover .menu-content{
-        display: block;
-        flex-direction: column;
+    .sponsor{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+        width: 70vw;
     }
 }
 
@@ -116,5 +127,26 @@ nav ul a{
         flex-direction: column;
         padding: 0px 20px;
         gap: 50px;
+    }
+    .sponsor{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px;
+        width: 70vw;
+    }
+}
+/* responssive for semi large device */
+
+@media screen and (min-width:960px ) and (max-width:1200px){
+    nav{
+        padding: 50px;
+    }
+    .banner{
+        padding: 0px 50px;
+        gap: 40px;
+    }
+    .sponsor{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 50px;
+        width: 70vw;
     }
 }
