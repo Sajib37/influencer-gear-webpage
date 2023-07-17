@@ -117,48 +117,48 @@ nav ul a {
     justify-content: space-between;
     align-items: center;
 }
-.feature-image{
+.feature-image {
     width: 400px;
 }
-.feature-title{
+.feature-title {
     font-size: 2.3rem;
     margin-bottom: 1.5rem;
 }
-.feature-description{
+.feature-description {
     max-width: 600px;
     gap: 1.5rem;
 }
-.feature-para{
+.feature-para {
     max-width: 500px;
 }
-.join-now-btn{
+.join-now-btn {
     width: 10rem;
     padding: 15px 0px;
-    background-color: #E02C6D;
+    background-color: #e02c6d;
     margin-top: 1.5rem;
     border-radius: 1rem;
 }
-footer{
-    height: 35vh;
+footer {
+    height: 40vh;
     width: 100%;
-    background-color: #0A0826;
+    background-color: #0a0826;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-footer div{
+footer div {
     max-width: 260px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.footer-icon{
+.footer-icon {
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
-.footer-icon i{
+.footer-icon i {
     font-size: 1.2rem;
     color: white;
 }
@@ -209,17 +209,17 @@ footer div{
         width: 315px;
         padding: 10px 5px;
     }
-    .feature{
+    .feature {
         flex-direction: column;
         width: 95%;
     }
-    .feature-image{
+    .feature-image {
         width: 95%;
     }
-    .feature-description{
+    .feature-description {
         max-width: 550px;
     }
-    .feature-image img{
+    .feature-image img {
         width: 95%;
     }
 }
@@ -251,13 +251,13 @@ footer div{
         width: 315px;
         padding: 10px 5px;
     }
-    .feature{
+    .feature {
         flex-direction: column;
     }
-    .feature-image{
+    .feature-image {
         width: 95%;
     }
-    .feature-image img{
+    .feature-image img {
         width: 95%;
     }
 }
@@ -277,7 +277,7 @@ footer div{
         width: 70vw;
     }
     .collection-container {
-        grid-template-columns: repeat(2,315px);
+        grid-template-columns: repeat(2, 315px);
     }
     .collection-card {
         width: 315px;
