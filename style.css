@@ -171,8 +171,8 @@ footer div {
 /* responssive for small device */
 @media screen and (max-width: 576px) {
     nav {
-        padding: 50px 0px;
-        width: 100%;
+        padding: 50px 15px;
+        width: 90%;
     }
     nav h3 {
         font-size: 1.5rem;
